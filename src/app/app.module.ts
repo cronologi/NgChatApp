@@ -1,3 +1,4 @@
+import { ThreadsService } from './services/threads.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -24,7 +25,7 @@ import { ThreadListComponent } from './thread-list/thread-list.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ThreadsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
