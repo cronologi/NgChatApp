@@ -1,6 +1,6 @@
 import { IParticipant } from './../model/participant';
 import { IThread } from './../model/thread';
-import { IMessage } from './../model/mesage';
+import { IMessage } from './../model/message';
 
 export interface IAllUserData {
   participants: IParticipant[];

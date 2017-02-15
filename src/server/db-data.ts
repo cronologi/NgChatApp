@@ -1,4 +1,4 @@
-import { IMessage } from './../../shared/model/mesage';
+import { IMessage } from './../../shared/model/message';
 import { IThread } from './../../shared/model/thread';
 import { IParticipant } from './../../shared/model/participant';
 
